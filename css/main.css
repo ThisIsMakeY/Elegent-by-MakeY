@@ -164,15 +164,15 @@ body {
 
 /* ==============Main============= */
 
-.main {
+.banner {
     background: url(../img/img-1.1.jpg) no-repeat center / cover;
-    height: 100%;
+    height: 100vh;
     padding: 15px 0;
     text-align: center;
     color: #eef0f2;
 }
 
-.main .container {
+.banner .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,29 +182,29 @@ body {
 }
 
 
-.main__title {
+.banner__title {
     font-size: 38px;
     padding-bottom: 30px;
     margin: 0 0 35px; 
     color: inherit;
 }
 
-.main__title::before {
+.banner__title::before {
     background: #eef0f2;
 }
 
-.main__text {
+.banner__text {
     margin-bottom: 20px;
     color: inherit;
     max-width: 600px;
 }
 
-.mai__wrap--btn {
+.banner__wrap--btn {
     position: absolute;
     bottom: 0;
 }
 
-.main__btn {
+.banner__btn {
     position: relative;
     display: inline-block;
     width: 40px;
@@ -214,12 +214,12 @@ body {
     transition: transform .3s;
 }
 
-.main__btn:hover {
+.banner__btn:hover {
     transform: scale(1.1);
 }
 
-.main__btn::before,
-.main__btn::after {
+.banner__btn::before,
+.banner__btn::after {
     content: "";
     position: absolute;
     width: 12px;
@@ -228,12 +228,12 @@ body {
     top: 50%;
 }
 
-.main__btn::after {
+.banner__btn::after {
     transform: rotate(45deg);
     right: 44%;
 }
 
-.main__btn::before {
+.banner__btn::before {
     transform: rotate(-45deg);
     left: 44%;
 }
@@ -727,7 +727,7 @@ body {
         justify-content: flex-end;
     }
 
-    .main__title {
+    .banner__title {
         font-size: 48px;
         padding-bottom: 50px;
         margin-bottom: 30px;
@@ -735,21 +735,21 @@ body {
 
 
 
-    .main__btn {
+    .banner__btn {
         width: 90px;
         height: 90px;
     }
 
-    .main__btn::before,
-    .main__btn::after {
+    .banner__btn::before,
+    .banner__btn::after {
         width: 21px;
     }
 
-    .main__btn::after {
+    .banner__btn::after {
         right: 46%;
     }
     
-    .main__btn::before {
+    .banner__btn::before {
         left: 46%;
     }
 
@@ -911,7 +911,7 @@ body {
         padding-top: 49px;
     }
 
-    .main {
+    .banner {
         padding: 70px 0 50px;
     }
 
